@@ -33,7 +33,7 @@ Gostaríamos de criar um projeto que tenha relação com um dos 17 tópicos de D
 O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com o objetivo de avaliar o desempenho escolar dos estudantes ao término da educação básica. Os dados e informações de edições passadas estão disponíveis no site:
 [ENEM - Brasil](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)
 
-	## **list of main attributes:**
+## **list of main attributes:**
 
 | Attributes                       | Explanation                                                    |
 | -------------------------------- | ------------------------------------------------------------ |
@@ -69,63 +69,36 @@ O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com 
 # Solution Strategy:
 
 Solution planning:
+	
+# → Ciclo 01
 
-**Step 01. Data description:** My goal is to use statistical metrics to identify data outside the scope of the business.
+**Step 01. Data description:** Entender o conjunto de dados, visto a quantidade de atributos dos inscritos.
 
-**Step 02. Feature Engineering:** Derive new attributes based on the original variables to better describe the phenomenon to be modeled.
+**Step 02. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
 
-**Step 03. Data Filtering:** Filter rows and select columns that do not contain information for modeling or that do not correspond to the business scope.
+**Step 03. Feature Engineering:** Melhoria na visualização dos dados.
 
-**Step 04. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
+**Step 04. Hypoteses Test:** Testar correlações e influências dos atributos nas notas
 
-**Step 05. Data Preparation:** Prepare the data so that machine learning models can learn specific behavior.
+**Step 05. Data Preparation:** Preparação dos dados para eliminar impurezas do conjunto de dados
 
-**Step 06. Selection of resources:** Selection of the most significant attributes to train the model.
-
-**Step 07. Machine Learning Modeling:** machine learning model training
-
-**Step 08. Hyperparameter Fine Tunning:** Choose the best values ​​for each of the parameters of the model selected in the previous step.
-
-**Step 09. Convert model performance to business values:** Convert model performance to a business result.
-
-**Step 10. Deploy Model to Production:** Publish the model to a cloud environment so that other people or services can use the results to improve the business decision.
+**Step 06. Selection of resources/Machine Learning Modeling:** Separação dos dados para teste e treino e aplicação do modelo.
 
   
   
 # Top 5 Data Insights
 
-**Hypothesis 1** - Stores with larger assortments should sell more.
-**FALSE**: Stores with a larger assortment sell less.
+**H1** - H1. A condição socio-economica influencia nos resultados das notas?
+**TRUE**: Perceptivel aumento de notas comforma a condição socio-economica também sobe.
 	
 <p align="left">
-  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/148779512-f3bfdfd9-b82d-49b7-ad80-177ec7a8a821.png"
+  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/155704365-e8cad625-061d-453c-a970-57fc6a529f81.png"
 </p>
 	 
-**Hypothesis 2**. Stores with closer competitors should sell less.
-**FALSE**: stores with closest competitors sell more!
+**H2**. H2. Alunos com acesso a TV em casa obtem melhores resultados?
+**TRUE**: Aqui, um insight com um "Q" de curiosidade,até onde o acesso a informações audio-visual influencia no desenvolvimento cognitivo das pessoas? 
 <p align="left">
-  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/148780086-b0a56917-efec-4ff8-a994-d4db7e883613.png"
-</p>
-	
-**Hypothesis 3**. Stores with longer-term competitors should sell more.
-**FALSE**: stores with competitors open longer, sell less!
-
-<p align="left">
-  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/148773814-70b3a362-3b5a-47fe-9b68-3fb2ed5e5112.png"
-</p>
-  
-**Hypothesis 6**. Stores with more consecutive promotions should sell more.
-**FALSE**: Stores with more consecutive promotions sell less.
-	
-<p align="left">
-  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/148778946-22395915-d45b-4bbb-a771-53f2d7dab072.png"
-</p>
-  
-**Hypothesis 10.** - Stores should sell more after the 10th of each month.
-**TRUE**: Stores sell more after the 10th of each month.
-	
-<p align="left">
-  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/148776316-9dce4761-bca6-4632-92e6-2548a2de6b7f.png"
+  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/155704735-f6eeab88-6d4e-4f15-a2bd-eb3219120bc6.png"
 </p>
 
   
@@ -195,15 +168,12 @@ Start a second cycle to analyze the problem, seeking different approaches, espec
 
 Possible points to be addressed in the second cycle:
 
--**Work with NA data differently**
+-**Transformar dados categoricos em númericos para extrair melhores resultados**
 
--**Rescaling and Encoding of data with different methodologies**
+-**Reescalando e Encodando melhor essas variaveis categoricas com metodos mais acurativos**
 
--**Work with new features for forecasting**
+-**Trabalhando melhorias no passo Feature Engineering**
 
--**Work with a more robust method to find the best Hyper parameters for the model**
-	
--**Analyzing sales equal to zero has some relationship with days when stores were closed or if there are stores operating without sales on those days.
 
 
 Ref.: 
@@ -212,9 +182,9 @@ Ref.:
 
 
 
-BG Rosmann Slaes Predict by Geraldine, Bruno.
+# Kaggle ML Olympiad - QUALITY EDUCATION, by. Geraldine, Bruno
 
-[Kaggle](https://www.kaggle.com/c/rossmann-store-sales)
+[Kaggle](https://www.kaggle.com/c/qualityeducation/overview)
 
 
 Ps.: Correcting erro install requeriments.txt:
