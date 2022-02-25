@@ -110,11 +110,16 @@ Testing were performed using the following algorithms:
 **Linear Regression Model**
 
 **Linear Regression Regularized Model - Lasso**
-  # Resultado segundo amostragem de 5% do conjunto de dados
+# Resultado segundo amostragem de 5% do conjunto de dados
 <p align="left">
   <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/155698686-c15a785c-856e-45aa-8505-58301f6f760c.png"
 </p>
-  # Resultado segundo amostragem de 30% do conjunto de dados
+  
+# Resultado segundo amostragem de 30% do conjunto de dados
+
+<p align="left">
+  <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/155708625-a4af7085-4809-47d1-b3a1-e7018b3fc778.png"
+</p>
   
 **Random Forest Regressor**
 
@@ -124,7 +129,7 @@ Testing were performed using the following algorithms:
 
 **Single Performance**
 
-| Model Name	| MAE	| MAPE	| RMSE |
+"""| Model Name	| MAE	| MAPE	| RMSE |
 |-----------|---------|-----------|---------|
 | Random Forest Regressor	| 684.564904	| 0.100777	| 1019.742124 |
 | XGBoost Regressor	| 843.112293	| 0.122609	| 1250.952637 |
@@ -140,7 +145,7 @@ Testing were performed using the following algorithms:
 |  XGBoost Regressor	| 1030.28 +/- 167.19	| 0.14 +/- 0.02	| 1478.26 +/- 229.79 |
 |  Linear Regression	  |	2081.73 +/- 295.63	| 0.3 +/- 0.02	| 2952.52 +/- 468.37 |
 |  Linear Regression - Lasso  |2116.38 +/- 341.5	| 0.29 +/- 0.01	| 3057.75 +/- 504.26 |
- 
+ """
 
 Although the Random Forest model has proven to be superior to the others, in some cases this model ends up requiring a lot of space to be published, resulting in an extra cost for the company to keep it running. Therefore, the chosen algorithm was the **XGBoost Regressor** which in sequence passed to the Hyperparameter Fine Tunning step.
 
