@@ -7,7 +7,7 @@
 
 **Warning:**Este projeto foi realizado durante o desafio Kaggle ML Olympiad - QUALITY EDUCATION, onde foi pude ter acesso aos mecrodados do enem e desenvolver uma solução de predição das notas usando modelagem de dados categoricos e númericos para aplicação de algoritmos de machine-learn para a solução de um problema de regressão**
 
-	https://www.kaggle.com/c/qualityeducation/overview
+[Kaggle](https://www.kaggle.com/c/qualityeducation/overview)
 
      
 <p align="left">
@@ -24,31 +24,154 @@
 
 
 # Business Assumptions
-The following assumptions were made about the business problem:
-- As it was assumed that there is a competitor even if very far away, if there is no date the competitor opened or data regarding promotional periods, work with the store date considering the premise that some time-derived variables are extremely important to represent a behavior.
-- Customers' data being difficult to predict was discarded and could be scoped for another project to complement this one.
-- The days when the stores were closed were discarded.
-- Only entries in which the **Sales** values were greater than 0 were considered.
+O Brasil é considerado um país com dimensões continentais, é o quinto maior país do planeta. A grande extensão territorial do Brasil proporciona ao país uma enorme diversidade de paisagens, climas, topografia, fauna e flora.
 
-## **Attribute List:**
+Infelizmente hoje no Brasil se estima ter por volta de 11 milhões de analfabetos e 5,9 milhões de pessoas desempregadas. A educação permite a mobilidade socioeconômica ascendente e é a chave para escapar da pobreza. A educação ajuda a reduzir as desigualdades e alcançar a igualdade de gênero e é crucial para promover a tolerância e sociedades mais pacíficas. Desigualdades na educação são exacerbadas pelo COVID-19.
+
+Gostaríamos de criar um projeto que tenha relação com um dos 17 tópicos de Desenvolvimento Sustentável das Nações Unidas. EDUCAÇÃO DE QUALIDADE
+
+O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com o objetivo de avaliar o desempenho escolar dos estudantes ao término da educação básica. Os dados e informações de edições passadas estão disponíveis no site:
+[ENEM - Brasil](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)
+
+	## **Attribute List:**
 
 | Attributes                       | Explanation                                                    |
 | -------------------------------- | ------------------------------------------------------------ |
-| Id                               | An Id that represents a pair (Store, Date) within the test suite |
-| Store                            | A unique id for each store                                   |
-| Sales                            | The sales volume for any day                       |
-| Customers                        | The number of customers on a given day                     |
-| Open                             | An indicator to know if the store was open: 0 = closed, 1 = open |
-| StateHoliday                     | Indicates a state holiday. Typically all stores, with few exceptions, close on state holidays. Please note that all schools are closed on holidays and weekends. a = holidays, b = Easter holiday, c = Christmas, 0 = None |
-| SchoolHoliday                    | Indicates if (Store, Date) was affected by the closing of public schools |
-| StoreType                        | Difference between 4 different store models: a, b, c, d  |
-| Assortment                       | Describes an inventory level: a = basic, b = extra, c = extended |
-| CompetitionDistance              | Distance in meters from the closest competitor          |
-| CompetitionOpenSince[Month/Year] | Gives the approximate year and month in which the closest competitor was opened |
-| Promo                            | Indicates if a store is running a promotion that day        |
-| Promo2                           | Promo2 is a continuous and consecutive promotion for some stores: 0 = the store is not participating, 1 = the store is participating |
-| Promo2Since[Year/Week]           | Describes the year and week the store started participating in Promo2 |
-| PromoInterval                    | Describes the consecutive start intervals for promotion 2, naming the months when the promotion starts again. For example. "Feb, May, August, November" means each round starts in February, May, August, November of any year for that store |
+| NU_INSCRICAO                     | Número de inscrição |
+| Q001	| Até que série seu pai, ou o homem responsável por você, estudou? |
+| Q002	| Até que série sua mãe, ou a mulher responsável por você, estudou?| 
+	
+	
+	
+	
+	
+	
+	
+| Q003	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele). |
+
+| Q004	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela). |
+	
+	
+	
+	
+	
+| Q005	| Incluindo você, quantas pessoas moram atualmente em sua residência? |
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+| Q006	| Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.) |
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+| Q007	| Em sua residência trabalha empregado(a) doméstico(a)? | 
+	
+	
+	
+Q008	Na sua residência tem banheiro?
+	
+	
+	
+	
+Q009	Na sua residência tem quartos para dormir?
+	
+	
+	
+	
+Q010	Na sua residência tem carro?
+	
+	
+	
+	
+Q011	Na sua residência tem motocicleta?
+	
+	
+	
+	
+Q012	Na sua residência tem geladeira?
+	
+	
+	
+	
+Q013	Na sua residência tem freezer (independente ou segunda porta da geladeira)?
+	
+	
+	
+	
+Q014	Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado)
+	
+	
+	
+	
+Q015	Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)?
+	
+	
+	
+	
+Q016	Na sua residência tem forno micro-ondas?
+	
+	
+	
+	
+Q017	Na sua residência tem máquina de lavar louça?
+	
+	
+	
+	
+Q018	Na sua residência tem aspirador de pó?
+	
+Q019	Na sua residência tem televisão em cores?
+	
+	
+	
+	
+Q020	Na sua residência tem aparelho de DVD?
+	
+Q021	Na sua residência tem TV por assinatura?
+	
+Q022	Na sua residência tem telefone celular?
+	
+	
+	
+	
+Q023	Na sua residência tem telefone fixo?
+	
+Q024	Na sua residência tem computador?
+	
+	
+	
+	
+Q025	Na sua residência tem acesso à Internet?
+![image](https://user-images.githubusercontent.com/87772120/155701683-fb2f7bf5-4400-4ac9-9e82-5ddb8ef53e08.png)
+
 
 # Solution Strategy:
 
