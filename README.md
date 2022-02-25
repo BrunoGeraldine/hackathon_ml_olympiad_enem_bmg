@@ -40,15 +40,7 @@ O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com 
 | NU_INSCRICAO                     | Número de inscrição |
 | Q001	| Até que série seu pai, ou o homem responsável por você, estudou? |
 | Q002	| Até que série sua mãe, ou a mulher responsável por você, estudou?| 
-	
-	
-	
-	
-	
-	
-	
 | Q003	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele). |
-
 | Q004	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela). |
 	
 	
