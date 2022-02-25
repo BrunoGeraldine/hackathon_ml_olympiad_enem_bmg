@@ -33,136 +33,37 @@ Gostaríamos de criar um projeto que tenha relação com um dos 17 tópicos de D
 O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com o objetivo de avaliar o desempenho escolar dos estudantes ao término da educação básica. Os dados e informações de edições passadas estão disponíveis no site:
 [ENEM - Brasil](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)
 
-	## **Attribute List:**
+	## **list of main attributes:**
 
 | Attributes                       | Explanation                                                    |
 | -------------------------------- | ------------------------------------------------------------ |
-| NU_INSCRICAO                     | Número de inscrição |
+| NU_INSCRICAO | Número de inscrição |
 | Q001	| Até que série seu pai, ou o homem responsável por você, estudou? |
 | Q002	| Até que série sua mãe, ou a mulher responsável por você, estudou?| 
 | Q003	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele). |
 | Q004	| A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela). |
-	
-	
-	
-	
-	
 | Q005	| Incluindo você, quantas pessoas moram atualmente em sua residência? |
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 | Q006	| Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.) |
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 | Q007	| Em sua residência trabalha empregado(a) doméstico(a)? | 
-	
-	
-	
-Q008	Na sua residência tem banheiro?
-	
-	
-	
-	
-Q009	Na sua residência tem quartos para dormir?
-	
-	
-	
-	
-Q010	Na sua residência tem carro?
-	
-	
-	
-	
-Q011	Na sua residência tem motocicleta?
-	
-	
-	
-	
-Q012	Na sua residência tem geladeira?
-	
-	
-	
-	
-Q013	Na sua residência tem freezer (independente ou segunda porta da geladeira)?
-	
-	
-	
-	
-Q014	Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado)
-	
-	
-	
-	
-Q015	Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)?
-	
-	
-	
-	
-Q016	Na sua residência tem forno micro-ondas?
-	
-	
-	
-	
-Q017	Na sua residência tem máquina de lavar louça?
-	
-	
-	
-	
-Q018	Na sua residência tem aspirador de pó?
-	
-Q019	Na sua residência tem televisão em cores?
-	
-	
-	
-	
-Q020	Na sua residência tem aparelho de DVD?
-	
-Q021	Na sua residência tem TV por assinatura?
-	
-Q022	Na sua residência tem telefone celular?
-	
-	
-	
-	
-Q023	Na sua residência tem telefone fixo?
-	
-Q024	Na sua residência tem computador?
-	
-	
-	
-	
-Q025	Na sua residência tem acesso à Internet?
-![image](https://user-images.githubusercontent.com/87772120/155701683-fb2f7bf5-4400-4ac9-9e82-5ddb8ef53e08.png)
+| Q008	| Na sua residência tem banheiro? |
+| Q009	| Na sua residência tem quartos para dormir? |
+| Q010	| Na sua residência tem carro? |
+| Q011	| Na sua residência tem motocicleta? |
+| Q012	| Na sua residência tem geladeira? |
+| Q013	| Na sua residência tem freezer (independente ou segunda porta da geladeira)? |
+| Q014	| Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado) |
+| Q015	| Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)? |
+| Q016	| Na sua residência tem forno micro-ondas? |
+| Q017	| Na sua residência tem máquina de lavar louça? |
+| Q018	| Na sua residência tem aspirador de pó? |
+| Q019 | Na sua residência tem televisão em cores? |
+| Q020	| Na sua residência tem aparelho de DVD? |
+| Q021	| Na sua residência tem TV por assinatura? |
+| Q022	| Na sua residência tem telefone celular? |
+| Q023	| Na sua residência tem telefone fixo? |
+| Q024	| Na sua residência tem computador? |
+| Q025	| Na sua residência tem acesso à Internet? |
+
 
 
 # Solution Strategy:
