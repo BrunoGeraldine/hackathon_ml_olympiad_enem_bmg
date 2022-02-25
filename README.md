@@ -66,11 +66,11 @@ O Exame Nacional do Ensino Médio (Enem) foi instituído no Brasil em 1998, com 
 
 
 
-# Solution Strategy:
+## Solution Strategy:
 
 Solution planning:
 	
-# → Ciclo 01
+### → Ciclo 01
 
 **Step 01. Data description:** Entender o conjunto de dados, visto a quantidade de atributos dos inscritos.
 
@@ -86,7 +86,7 @@ Solution planning:
 
   
   
-# Top 5 Data Insights
+### The Best Data Insights
 
 **H1** - H1. A condição socio-economica influencia nos resultados das notas?
 **TRUE**: Perceptivel aumento de notas comforma a condição socio-economica também sobe.
@@ -120,7 +120,7 @@ Testing were performed using the following algorithms:
 
 **XGBoost Regressor**
 
-# 6. Machine Learning Model Performance
+## 6. Machine Learning Model Performance
 
 **Single Performance**
 
@@ -173,13 +173,6 @@ Possible points to be addressed in the second cycle:
 -**Reescalando e Encodando melhor essas variaveis categoricas com metodos mais acurativos**
 
 -**Trabalhando melhorias no passo Feature Engineering**
-
-
-
-Ref.: 
-  - Imagem disponible on [Google Imagens](https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1hbpr09pwz0sk.cloudfront.net%2Flogo_url%2Frossmann-czech-republic-e86d67e6&imgrefurl=https%3A%2F%2Frocketreach.co%2Frossmann-czech-republic-profile_b55ebaf6f68b0522&tbnid=DgzEqnZWCD-1zM&vet=12ahUKEwji6_XZ9pr0AhWWK7kGHb5PDqYQMyg5egQIARBF..i&docid=ZLc7upQS0jcYKM&w=200&h=200&itg=1&q=Rossmann%20Marketing&ved=2ahUKEwji6_XZ9pr0AhWWK7kGHb5PDqYQMyg5egQIARBF#imgrc=HCCKxz-5W3rzJM&imgdii=RysZEEX_uQ6jyM)
-
-
 
 
 # Kaggle ML Olympiad - QUALITY EDUCATION, by. Geraldine, Bruno
