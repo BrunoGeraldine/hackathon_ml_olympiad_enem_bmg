@@ -1,29 +1,13 @@
-# hackathon_ml_olympiad_enem_bmg
-Este é um projeto realizado para participar da olimpíada de dados Hackathon ML Opympiad ENEM
-
-https://www.kaggle.com/c/qualityeducation/overview
-
-# Resultado segundo amostragem de 5% do conjunto de dados
-![image](https://user-images.githubusercontent.com/87772120/155698686-c15a785c-856e-45aa-8505-58301f6f760c.png)
-
-
+# Kaggle_ml_olympiad_enem_bmg
 
 <p align="center">
-  <img width="1000" height="200" src="https://user-images.githubusercontent.com/87772120/141830775-ca0b346c-9936-4e12-bcde-7032c9be1616.png"
-</p> 
+  <img width="1000" height="200" src="https://user-images.githubusercontent.com/87772120/155699770-09c471b2-2365-4d87-8ed2-f3f06a324865.png"
+       </p>
 
 
-**Warning:**This is an unrealistic project, the business problem, the context, the CEO's questions don't exist in real life. Just to study and carry out this experience project.
+**Warning:**Este projeto foi realizado durante o desafio Kaggle ML Olympiad - QUALITY EDUCATION, onde foi pude ter acesso aos mecrodados do enem e desenvolver uma solução de predição das notas usando modelagem de dados categoricos e númericos para aplicação de algoritmos de machine-learn para a solução de um problema de regressão**
 
-Rossmann is one of the largest drugstore chains in Europe, operating in more than 3000 units in 7 European countries. With the success of its brand, Rossmann plans a general renovation in all its stores, but currently the sales forecast is made through an excel spreadsheet considering the average sales, finding this methodology to be faulty and old, the company's management seeks new solutions.
-
-A meeting was held with Rossmann's managers, directors and CEO to plan the renovations at the Rossmann stores in order to renew the aesthetics and standardize the stores. For this renovation to be possible, the Rossmann business team would need to have sales forecasts from all stores for the next 6 weeks, however, as currently sales forecasts were only made by means of an average spreadsheet, it is impossible to have a notion of the magnitude of individual sales and sales fluctuations between each store. Therefore, the company decided to hire a data scientist, to be aware of the best solution to the problem.
-
-During the meeting the data scientist explained the details of a sales forecast as well as the methods that could be used. At the end of the meeting, the data scientist was responsible for creating a sales forecast model based on machine learning to answer the company's business question.
-  
-  
-The main problem of this project is to answer: **"How much will each store sell in the next six weeks?"**
-
+	https://www.kaggle.com/c/qualityeducation/overview
 
      
 <p align="left">
