@@ -119,8 +119,6 @@ Testing were performed using the following algorithms:
   
 **Lasso Regressor Model - scikit-learn**
 
-**XGBoost Regressor**
-
 
 #  Next steps
 
