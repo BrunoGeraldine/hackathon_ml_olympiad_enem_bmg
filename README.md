@@ -15,10 +15,6 @@
 </p>  
      
 <p align="left">
-<img width="90" height="30" src="https://user-images.githubusercontent.com/87772120/148815386-40bfef66-6fda-44f5-99fb-2c3675176acf.png"
-</p>
-
-<p align="left">
 <img width="90" height="30" src="https://user-images.githubusercontent.com/87772120/148815830-d8ed34a3-0272-4d1f-b4dc-6eb11848deaf.png"
 </p>
 
@@ -121,51 +117,10 @@ Testing were performed using the following algorithms:
   <img width="1000" height="400" src="https://user-images.githubusercontent.com/87772120/155708625-a4af7085-4809-47d1-b3a1-e7018b3fc778.png"
 </p>
   
-**Random Forest Regressor**
+**Lasso Regressor Model - scikit-learn**
 
 **XGBoost Regressor**
 
-## 6. Machine Learning Model Performance
-
-**Single Performance**
-
-"""| Model Name	| MAE	| MAPE	| RMSE |
-|-----------|---------|-----------|---------|
-| Random Forest Regressor	| 684.564904	| 0.100777	| 1019.742124 |
-| XGBoost Regressor	| 843.112293	| 0.122609	| 1250.952637 |
-| Average Model	| 1354.800353	| 0.206400	| 1835.135542 |
-| Linear Regression	| 1867.089774	| 0.292694	| 2671.049215 |
-| Linear Regression - Lasso	| 1891.704881	| 0.289106	| 2744.451737 |
- 
-**Real Performance - Cross Validation**
-
-| Model Name | MAE CV   | MAPE CV      | RMSE CV |
-|-----------|---------|-----------|---------|
-|  Random Forest Regressor	| 847.78 +/- 224.47	| 0.12 +/- 0.02 | 1271.62 +/- 328.74 |
-|  XGBoost Regressor	| 1030.28 +/- 167.19	| 0.14 +/- 0.02	| 1478.26 +/- 229.79 |
-|  Linear Regression	  |	2081.73 +/- 295.63	| 0.3 +/- 0.02	| 2952.52 +/- 468.37 |
-|  Linear Regression - Lasso  |2116.38 +/- 341.5	| 0.29 +/- 0.01	| 3057.75 +/- 504.26 |
- """
-
-Although the Random Forest model has proven to be superior to the others, in some cases this model ends up requiring a lot of space to be published, resulting in an extra cost for the company to keep it running. Therefore, the chosen algorithm was the **XGBoost Regressor** which in sequence passed to the Hyperparameter Fine Tunning step.
-
-
-**Final Performance - Hyperparameter Fine Tunning Cross Validation**
-
-Após encontrar os melhores parâmetros para o modelo através do metódo Random Search as métricas finais para o modelo foram as seguintes:
-
-| Model Name | MAE CV   | MAPE CV      | RMSE CV |
-|-----------|---------|-----------|---------|
-|  XGBoost Regressor	  | 1030.28 +/- 167.19 | 0.14 +/- 0.02 | 1478.26 +/- 229.79 |
-	
-
-**Model with XGBoost Regressor**
-
-| Scenario | Values  |                              
-|-----------|---------|
-| Predictions	| €286,381,809.29 |
-| Worst Scenario | €285,609,778.34 |
-| Best Scenario	| €287,153,840.24 | 
 
 #  Next steps
 
@@ -183,7 +138,3 @@ Possible points to be addressed in the second cycle:
 # Kaggle ML Olympiad - QUALITY EDUCATION, by. Geraldine, Bruno
 
 [Kaggle](https://www.kaggle.com/c/qualityeducation/overview)
-
-
-Ps.: Correcting erro install requeriments.txt:
-Inside this file there are two versions of sklearn, delete both and reinstall scikit-learn==0.24.2
