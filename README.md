@@ -42,7 +42,7 @@ The **CER (Specialized Rehabilitation Center)** is an **outpatient care unit spe
 - Represented on the map by the **color and size of the bubbles** centered on each municipality.  
 - It is based on the **linear combination of the PCD (People with Disabilities) rate** (assigned a weight of 1) and the **IBP at the municipal level** (assigned a weight of 2), as follows:  
 
-        **Metric = PCD Rate * Weight 1 + IBP * Weight 2**  
+        Metric = PCD Rate * Weight 1 + IBP * Weight 2
 
 - Each of these variables is **normalized**, and the sum of **weights 1 and 2 must equal 1**.  
 - The **observed range** of the metric can be adjusted using the **leftmost filter**, while **weight 1 can be set using the slider control**—weight 2 is automatically determined in the adjacent visualization.  
