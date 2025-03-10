@@ -2,83 +2,99 @@
 
   # [HACKATHON CER + Brasil](https://www.hackathoncermaisbr.com.br/)
  
- ## "Esse projeto foi criado durante o projeto Hackathon CER+BRASIL 2021, realizado pela Projeto CER+BRASIL”.
-  
-  Este evento compõe um conjunto de etapas de Tradução do Conhecimento e é parte do projeto de Pesquisa e Inovação vencedor único de Chamada Pública nº 27/2019 do Conselho Nacional de Desenvolvimento Científico dos e parâmetros Tecnológico de (CNPq): cobertura para “CER+Brasil: os Centros Especializados em Reabilitação (CER) e Oficinas Ortopédicas orientados ao modelo Biopsicossocial”. O projeto que contou com apoio financeiro do Conselho Nacional de Desenvolvimento Científico e Tecnológico e do Ministério da Saúde tem como instituição proponente, o Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro (IFRJ). 
-  A proposta deste evento de ciência de dados é reunir análises qualificadas de tecnologias de análise de bases de dados primários e secundários com desfechos sobre a Rede de Cuidados à Pessoa com Deficiência no Sistema Único de Saúde (SUS).
+ ## "This project was created during the Hackathon CER+BRASIL 2021, organized by Projeto CER+BRASIL."
 
-  Objetivo do Projeto: **utilizar-se da ciência de dados para construir propostas de parâmetros assistenciais e epidemiológicos para implantação de novos serviços CER e Oficinas Ortopédicas no Brasil.**
-  
-  A Convenção sobre os Direitos das Pessoas com Deficiência (ONU/2007) ratificada pelo Brasil traz a definição: pessoas com deficiência são aquelas que têm impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial, os quais, em interação com diversas barreiras, podem obstruir sua participação plena e efetiva na sociedade em igualdades de condições com as demais pessoas. - Pessoas com deficiência auditiva foram assim classificadas quando tiveram "alguma dificuldade", "grande dificuldade" ou "não conseguiam de modo nenhum" como respostas para a pergunta "tem dificuldade permanente de ouvir? (se utiliza aparelho auditivo, faça sua avaliação quando o estiver utilizando)" (IBGE-a,2021).
-  
-  Em 2019, segundo a Pesquisa Nacional de Saúde (PNS), 17,3 milhões de pessoas com dois anos ou mais de idade (8,4% dessa população) tinham algum tipo de deficiência. 
-  Um levantamento do Instituto Brasileiro de Geografia e Estatística (IBGE) aponta que quase metade dessa parcela (49,4%) é de idosos. 
-  As informações fazem parte da Pesquisa Nacional de Saúde (PNS) de 2019, divulgada nesta quinta-feira (26). O levantamento, feito em parceria pelo Ministério da Saúde, traz informações sobre as condições de saúde da população brasileira (IBGE-b,2021).
+This event is part of a series of Knowledge Translation stages and is included in the Research and Innovation project that won the **Public Call No. 27/2019** from the **National Council for Scientific and Technological Development (CNPq)**: coverage for **“CER+Brasil: the Specialized Rehabilitation Centers (CER) and Orthopedic Workshops guided by the Biopsychosocial model.”**  
+
+The project, which received financial support from the **National Council for Scientific and Technological Development** and the **Ministry of Health**, was proposed by the **Federal Institute of Education, Science, and Technology of Rio de Janeiro (IFRJ).**  
+
+The purpose of this data science event is to bring together qualified analyses of **primary and secondary database technologies**, generating outcomes related to the **Care Network for People with Disabilities** in the **Unified Health System (SUS)**.
+
+### **Project Objective**  
+**Utilize data science to develop proposals for care and epidemiological parameters for the implementation of new CER services and Orthopedic Workshops in Brazil.**  
+
+The **United Nations Convention on the Rights of Persons with Disabilities (UN/2007)**, ratified by Brazil, defines persons with disabilities as those who have **long-term physical, mental, intellectual, or sensory impairments** which, in interaction with various barriers, **may hinder their full and effective participation in society on an equal basis with others.**  
+
+Hearing-impaired individuals were classified as those who responded **“some difficulty,” “great difficulty,” or “unable to hear at all”** to the question:  
+*"Do you have a permanent hearing impairment? (If you use a hearing aid, assess your condition while using it)."* (IBGE-a, 2021).  
+
+### **Context and Statistics**  
+In **2019**, according to the **National Health Survey (PNS)**, **17.3 million people aged two years or older (8.4% of this population) had some type of disability.**  
+
+A study by the **Brazilian Institute of Geography and Statistics (IBGE)** indicates that almost half of this group (49.4%) are elderly.  
+
+These findings are part of the **2019 National Health Survey (PNS)**, published on **November 26, 2021**. This survey, conducted in partnership with the **Ministry of Health**, provides insights into the health conditions of the Brazilian population (IBGE-b, 2021).
+
 
  
 ![image](https://user-images.githubusercontent.com/87772120/136675985-3db92bb7-5db0-4082-a5de-ed995a6b8869.png)
 
- O CER é um ponto de atenção ambulatorial especializado em reabilitação. Tem como parâmetros assistenciais a construção individual para cada usuário do SUS de Projeto Terapêutico Singular (PTS) que inclua o acesso a Tecnologia Assistiva, constituindo-se em referência para a Rede de Atenção à Saúde. 
-  
-  
-  Problema identificado: **"Quantos são e onde estão as pessoas com deficiência no Brasil?"**
 
-**Parâmetros e métricas**:
 
-Métrica: 
- - Denotada no mapa pela cor e tamanho das bolhas centradas em cada município. Se trata da combinação linear da taxa de PCDs (acompanhada do peso 1) e do IBP a nível municipal (acompanhado do peso 2), isto é:
+The **CER (Specialized Rehabilitation Center)** is an **outpatient care unit specialized in rehabilitation**. Its care parameters include the **individualized construction of a Singular Therapeutic Project (PTS) for each SUS user**, ensuring access to Assistive Technology and serving as a reference point for the **Healthcare Network (Rede de Atenção à Saúde).**  
 
-        Métrica = Taxa PCDs * Peso 1 + IBP * Peso 2
+### **Identified Problem:**  
+**"How many people with disabilities are there in Brazil, and where are they located?"**  
 
- Cada uma das grandezas figura na métrica de forma normalizada**, e a soma dos pesos 1 e 2 deve ser 1.
- A amplitude observada da métrica pode ser regulada pelo filtro mais à esquerda, enquanto que o peso 1 pode ser setado no controle deslizante - o peso 2 fica automaticamente determinado no visual ao lado.
+## **Parameters and Metrics**  
 
- Parâmetro sugerido:
- - Se 'Métrica > 0.18' , então é sugestível ter um CER na cidade em questão. 
+### **Metric:**  
+- Represented on the map by the **color and size of the bubbles** centered on each municipality.  
+- It is based on the **linear combination of the PCD (People with Disabilities) rate** (assigned a weight of 1) and the **IBP at the municipal level** (assigned a weight of 2), as follows:  
 
- Taxa de PCDs: 
- - Incidência de pessoas com necessidade de reabilitação relativo ao respectivo UF.
+        **Metric = PCD Rate * Weight 1 + IBP * Weight 2**  
 
-      **Ao aplicar a normalização temos por objetivo manter os valores dos coeficientes entre 0 e 1. A normalização MinMaxScale aplicada está detalhada neste [link](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.minmax_scale.html). (ScikitLearn, 2021)
+- Each of these variables is **normalized**, and the sum of **weights 1 and 2 must equal 1**.  
+- The **observed range** of the metric can be adjusted using the **leftmost filter**, while **weight 1 can be set using the slider control**—weight 2 is automatically determined in the adjacent visualization.  
+
+### **Suggested Parameter:**  
+- If **Metric > 0.18**, then establishing a **CER (Specialized Rehabilitation Center)** in the given city is recommended.  
+
+### **PCD Rate:**  
+- The incidence of people requiring rehabilitation relative to their respective **state (UF).**  
+
+**By applying normalization, we aim to keep coefficient values between 0 and 1. The applied MinMaxScale normalization is detailed in this**  
+[link](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.minmax_scale.html). (ScikitLearn, 2021)
        
      
 
- **Entregável**: [**Dashboard CER+Brasil - Data Studio**](https://datastudio.google.com/reporting/c2b5121e-cee8-4eb6-b370-d350f795ffa7)
+ ## **Deliverable**: [**Dashboard CER+Brasil - Data Studio**](https://datastudio.google.com/reporting/c2b5121e-cee8-4eb6-b370-d350f795ffa7)  
 
-**Planejamento da solução**:
+## **Solution Planning**  
 
-# Etapas do Projeto:
+# **Project Stages:**  
 
-**Etapa 01. Descrição dos dados:** Coleta e análise primaria dos dados.
+**Stage 01. Data Description:** Primary data collection and analysis.  
 
-**Etapa 02. Feature Engineering:** Limpeza e tratamento dos dados.
+**Stage 02. Feature Engineering:** Data cleaning and processing.  
 
-**Passo 03. Filtragem de Dados:** Seleção de dados relativos as patologias por município.
+**Stage 03. Data Filtering:** Selection of data related to pathologies by municipality.  
 
-**Etapa 04. Análise exploratória de dados:** Exploração dos dados para descobrir insights e novas métricas.
+**Stage 04. Exploratory Data Analysis:** Data exploration to uncover insights and new metrics.  
 
-**Etapa 05. Preparação dos dados:** Prepare os dados para visualização do dashboard.
+**Stage 05. Data Preparation:** Preparing data for dashboard visualization.  
 
-**Etapa 06. Submissão do projeto:** 10/out/2021.
+**Stage 06. Project Submission:** October 10, 2021.  
 
+## **Project Developed By:**  
+- Nataniel Pereira dos Santos  
+- Felipe Provezano Coutinho  
+- Cleiton de Oliveira Ambrosio  
+- Bruno Martins Geraldine  
 
-**Projeto desenvolvido por**:  
- - Nataniel Pereira dos Santos
- - Felipe Provezano Coutinho
- - Cleiton de Oliveira Ambrosio
- - Bruno Martins Geraldine
-                              
-**Referências Bibliográficas**:
+## **Bibliographic References:**  
 
-**IBGE - a**. Instituto Brasileiro de Geografia e Estatística. Estatísticas de gênero. Acesso em 09 de outubro de 2021. Disponível em:<https://www.ibge.gov.br/apps/snig/v1/?loc=0&cat=-1,-2,-3,128&ind=4643>. 
+**IBGE - a**. Brazilian Institute of Geography and Statistics. Gender statistics. Accessed on October 9, 2021. Available at: <https://www.ibge.gov.br/apps/snig/v1/?loc=0&cat=-1,-2,-3,128&ind=4643>.  
 
-**IBGE - b**. Instituto Brasileiro de Geografia e Estatística. Agência Notícias IBGE – PNS 2019: país tem 17,3 milhões de pessoas com algum tipo de deficiência -. Acesso em 09 de outubro de 2021. Disponível em:<https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/31445-pns-2019-pais-tem-17-3-milhoes-de-pessoas-com-algum-tipo-de-deficiencia#:~:text=PNS%202019%3A%20pa%C3%Ads%20tem%2017,defici%C3%Aancia%20%7C%20Ag%C3%Aancia%20de%20Not%C3%Adcias%20%7C%20IBGE>.  
+**IBGE - b**. Brazilian Institute of Geography and Statistics. IBGE News Agency – PNS 2019: The country has 17.3 million people with some type of disability. Accessed on October 9, 2021. Available at:  
+<https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/31445-pns-2019-pais-tem-17-3-milhoes-de-pessoas-com-algum-tipo-de-deficiencia#:~:text=PNS%202019%3A%20pa%C3%Ads%20tem%2017,defici%C3%Aancia%20%7C%20Ag%C3%Aancia%20de%20Not%C3%Adcias%20%7C%20IBGE>.  
 
-**GITHUB**. Dados "Lat", "Long" dos municípios brasilerios. Kelvins/Municipios-Brasileiros. Acesso em 09 de outubro de 2021. Disponível em:<https://github.com/kelvins/Municipios-Brasileiros>. 
+**GITHUB**. Data on "Lat", "Long" of Brazilian municipalities. Kelvins/Municipios-Brasileiros. Accessed on October 9, 2021. Available at: <https://github.com/kelvins/Municipios-Brasileiros>.  
 
-**ScikitLearn**. sklearn.preprocessing.minmax_scale. Acesso em 09 de outubro de 2021. Disponível em: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.minmax_scale.html
+**ScikitLearn**. sklearn.preprocessing.minmax_scale. Accessed on October 9, 2021. Available at: <https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.minmax_scale.html>.  
 
-Tecnologias aplicadas:
+## **Applied Technologies:**  
+
 
 [![image](https://user-images.githubusercontent.com/87772120/136676881-9942f3bc-2866-4bfb-b3bc-162a529b8409.png)](https://jupyter.org/)
 
