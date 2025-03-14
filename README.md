@@ -1,8 +1,9 @@
 ![image](https://user-images.githubusercontent.com/87772120/136675995-17cf9a2f-4d03-4630-bff4-56a8918e0777.png)
 
-  # [HACKATHON CER + Brasil](https://www.hackathoncermaisbr.com.br/)
+# [HACKATHON CER + Brasil](https://www.hackathoncermaisbr.com.br/)
 
 [Hackathon Certificate]([https://example.com/meu-arquivo.pdf](https://drive.google.com/file/d/1ilwcbsJYNg83ngBGO84wZFXg28EDojbt/view?usp=sharing))
+![image](https://github.com/user-attachments/assets/e3c62ab0-f387-49fe-a239-cec4f2275019)
 
 
  ## "This project was created during the Hackathon CER+BRASIL 2021, organized by Projeto CER+BRASIL."
