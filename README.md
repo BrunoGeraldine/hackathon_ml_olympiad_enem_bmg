@@ -2,7 +2,6 @@
 
 # [HACKATHON CER + Brasil](https://www.hackathoncermaisbr.com.br/)
 
-[Hackathon Certificate]([https://example.com/meu-arquivo.pdf](https://drive.google.com/file/d/1ilwcbsJYNg83ngBGO84wZFXg28EDojbt/view?usp=sharing))
 ![image](https://github.com/user-attachments/assets/e3c62ab0-f387-49fe-a239-cec4f2275019)
 
 
