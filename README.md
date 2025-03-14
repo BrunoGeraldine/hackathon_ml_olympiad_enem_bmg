@@ -2,8 +2,9 @@
 
   # [HACKATHON CER + Brasil](https://www.hackathoncermaisbr.com.br/)
 
-<iframe src=""E:\cv\CERTIFICADO HACKATHON_Bruno Martins Geraldine.pdf"" width="100%" height="600px"></iframe>
- 
+[Hackathon Certificate]([https://example.com/meu-arquivo.pdf](https://drive.google.com/file/d/1ilwcbsJYNg83ngBGO84wZFXg28EDojbt/view?usp=sharing))
+
+
  ## "This project was created during the Hackathon CER+BRASIL 2021, organized by Projeto CER+BRASIL."
 
 This event is part of a series of Knowledge Translation stages and is included in the Research and Innovation project that won the **Public Call No. 27/2019** from the **National Council for Scientific and Technological Development (CNPq)**: coverage for **“CER+Brasil: the Specialized Rehabilitation Centers (CER) and Orthopedic Workshops guided by the Biopsychosocial model.”**  
